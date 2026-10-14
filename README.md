@@ -1,2 +1,2 @@
 # car-price
-A simple dummy project for learning deployments and other applied topics in ML.
+A simple dummy project for learning deployments, caching, monitoring and other applied topics in ML.
