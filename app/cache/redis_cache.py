@@ -1,8 +1,8 @@
 import json
-import redis_practice
+import redis
 from app.core.config import settings
 
-redis_client = redis_practice.Redis.from_url(settings.REDIS_URL)
+redis_client = redis.Redis.from_url(settings.REDIS_URL)
 
 def get_cached_prediction(key: str):
     value = redis_client.get(key)
